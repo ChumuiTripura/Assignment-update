@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+body{
+    background-color: rgb(74, 74, 242);
+}
+
+ul{
+    list-style: none;
+    background-color: rgb(80, 75, 144);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+ul .logo p{
+    font-size: 45px;
+    font-weight: bold;
+    float: right;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+ul li {
+    display: inline-block;
+    position: relative;
+    font-size: 25px;
+    /* margin-inline-end: 50px; */
+}
+ul li:hover{
+    color: antiquewhite;
+    background: rgb(177, 159, 223);
+}
+ul li a{
+    display: block;
+    padding: 20px 50px;
+    color: red;
+    text-decoration: none;
+    /* text-align: center; */
+    font-size: 20px;
+}
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: 100%;
+    background: rgb(164, 152, 229);
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    background: rgb(177, 159, 223);
+}
+
+ul li:hover ul.dropdown{
+    background: wheat;
+    display: block;
+}
+.paragraph {
+   width: 750px;
+   height:650px;
+   margin-right:20px;
+   padding: 30px;
+   font-size: large;
+   background-color: rgb(115, 110, 169);
+   
+}
+.div2{
+    display: inline-flex;
+    padding: 50px 30px;
+}
+
+.img{
+   margin-left: 10px;
+   width: 460px;
+   height: 670px;
+   overflow-y: auto;
+   overflow-x: hidden;
+   padding: 10px;
+   background-color: rgb(42, 8, 114);
+}
+.img1{
+
+   width:430px;
+   padding: 10px;
+}
+
+.div2 p B{
+    font-size: 40px;
+    color: wheat;
+}
